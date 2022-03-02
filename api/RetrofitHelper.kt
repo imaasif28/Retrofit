@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitHelper {
 
-    private const val baseURL = "https://grouppolicy-uat.iiflinsurance.com:5050/"
+    private const val baseURL = "Base URL for appending endpoints"
 
     fun getInstance(): Retrofit {
         val interceptor = HttpLoggingInterceptor()
